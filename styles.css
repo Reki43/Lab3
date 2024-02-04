@@ -1,0 +1,46 @@
+:root {
+    --base-color: 235;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header{
+    background-color: hsl(var(--base-color), 9%, 21%);
+    padding: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    margin-left: 6rem;
+    border: 1px solid green
+}
+
+
+
+nav div{
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 2px 4px hsl(var(--base-color), 0%, 37%);
+    border-radius: 3px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+nav div:hover{
+    transform:scale(1.2);
+    box-shadow: 0px 10px 7px hsl(var(--base-color), 0%, 37%);
+}
+
+
+
+
+
+
+
+
